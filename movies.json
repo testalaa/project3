@@ -1,0 +1,31 @@
+[
+    {
+      "id": 1,
+      "title": "Happy New Year",
+      "director": "Farah Khan",
+      "releaseYear": 2014,
+      "genre": "Action Comedy"
+    },
+    {
+      "id": 2,
+      "title": "Bajrangi Bhaijaan",
+      "director": "Kabir Khan",
+      "releaseYear": 2015,
+      "genre": "Comedy Drama"
+    },
+    {
+      "id": 3,
+      "title": "Harry Potter",
+      "director": "David Yates",
+      "releaseYear": 2007,
+      "genre": "Fantasy"
+    },
+    {
+      "id": 4,
+      "title": "Maleficent",
+      "director": "Robert Stromberg",
+      "releaseYear": 2014,
+      "genre": "Fantasy"
+    }
+    
+  ]
