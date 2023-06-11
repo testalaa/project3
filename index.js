@@ -4,7 +4,7 @@ import fetch from "node-fetch";
 import Movie from './Movie.js';
 
 const input = prompt();
-let apiUrl = 'http://www.omdbapi.com/apikey.aspx?VERIFYKEY=6c78d2d8-7351-447e-a542-ef8d07c9201c';
+let apiUrl = 'http://www.omdbapi.com/?i=tt3896198&apikey=f84b6ef6';
 let movies = [];
 
 const readAMovies = () => {
