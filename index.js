@@ -36,11 +36,20 @@ const getMoviesFromAPI = () => {
         });
 };
 
-const appendDataToFile = (newData = []) => {
-    newData.map((m) => {
-        const newMovie = new Movie(m.id, m.title, m.year, m.genre, m.director);
+const appendDataToFile = (element ) => {
+
+    // newData.map((m) => {
+    //     const newMovie = new Movie(m.Id, m.Title, m.Year, m.Genre, m.Director);
+    //     movies.push(newMovie);
+    // })
+    // newData.forEach(element => {
+    //     console.log("element",element)
+    //     const newMovie = new Movie(element.Id, element.Title, element.Year, element.Genre, element.Director);
+    //     movies.push(newMovie);
+    // });
+
+    const newMovie = new Movie(element.Id, element.Title, element.Year, element.Genre, element.Director);
         movies.push(newMovie);
-    })
     fs.writeFile("./movies.json", JSON.stringify(movies), 'utf-8', (err) => {
         if (err) {
             console.log('Something went wrong while writing to the file!');
